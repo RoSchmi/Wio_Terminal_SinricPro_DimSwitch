@@ -1,6 +1,6 @@
 # Wio_Terminal_SinricPro_DimSwitch
 
-This is a modification of the hackster contribution
+This is a modification of this hackster contribution for the Wio Terminal
 
 ### WioTerminal-IoTs-Dimmer
 https://www.hackster.io/SeeedStudio/wioterminal-iots-dimmer-a106b9

@@ -6,8 +6,11 @@
 
 // The application is modified to be easily compiled on PlatformIO IDE
 
-// SinricPro library is not installed through the PlatformIO library manager
-// It is installed directly in the lib folder
+
+// The WebSockets_Generic library is not installed through lib_deps 
+// It is installed directly in the lib folder, otherwise there were many 
+// compiler errors which couldn't be resolved easily
+
 
 #include <Arduino.h>
 

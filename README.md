@@ -13,26 +13,40 @@ They are installed directly in the lib folder, otherwise there were many compile
 
 As an alternative you can use the following settings in platformio.ini (ignore the not needed lobraries)
 
-lib_deps = 
+lib_deps =
 	https://github.com/Seeed-Studio/Seeed_Arduino_rpcWiFi#v1.0.2
+	
 	https://github.com/Seeed-Studio/Seeed_Arduino_rpcUnified#v2.1.1
+	
 	https://github.com/Seeed-Studio/Seeed_Arduino_FS
+	
 	https://github.com/Seeed-Studio/Seeed_Arduino_SFUD
+	
 	https://github.com/Seeed-Studio/Seeed_Arduino_mbedtls#dev
-
+	
 	https://github.com/khoih-prog/SinricPro_Generic#v2.8.0
 	
 	
-lib_ignore = 
+lib_ignore =
+
 	STM32Ethernet
+	
 	DueFlashStorage
+	
 	ESP_AT_Lib
+	
 	Ethernet
+	
 	Ethernet2
+	
 	Ethernet3
+	
 	EthernetENC
+	
 	EthernetLarge
+	
 	EthernetWebServer
+	
 	EthernetWebServer_STM32
 	STM32duino LwIP
 	STM32Ethernet

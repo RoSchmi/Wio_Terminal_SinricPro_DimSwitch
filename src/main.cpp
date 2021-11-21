@@ -210,6 +210,7 @@ void setup()
   Serial.begin(9600);
 
 //  while (!Serial);
+  Serial.println("\nStarting"); 
 
   pinMode(LED_PIN, OUTPUT); // define LED GPIO as output
   digitalWrite(LED_PIN, LOW); // turn off LED on bootup
